@@ -14,20 +14,20 @@ body {
  h3 {
      color: DimGray;
 }
- nav {
+nav {
      list-style-type: none;
      margin: 0;
      padding: 0;
      background-color: DimGray;
      overflow: hidden;
 }
- nav a {
+nav a {
      float: left;
      display: block;
      color: White;
      padding: 10px 15px;
 }
- nav a :hover {
+nav a :hover {
      background-color: Black;
 }
  .active {
