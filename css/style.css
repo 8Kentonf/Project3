@@ -14,14 +14,14 @@ body {
  h3 {
      color: DimGray;
 }
-nav {
+ nav {
      list-style-type: none;
      margin: 0;
      padding: 0;
      background-color: DimGray;
      overflow: hidden;
 }
-nav a {
+ nav a {
      float: left;
      display: block;
      color: Gainsboro;
@@ -29,7 +29,7 @@ nav a {
      position: relative;
      left: 50%;
 }
-nav :hover {
+ nav :hover {
      background-color: Black;
 }
  .active {
@@ -86,56 +86,48 @@ nav :hover {
      width: 300px;
      height: 300px;
 }
-
-@media only screen and (min-width: 400px) {
-  .biscuitdesc {
-    color: Yellow;
-    text-align: left;
-  }
-  
-  .ingredients {
-    color: Blue;
-    text-align: right;
-  }
-  .ingredients ul {
-     background: AliceBlue;
-     padding: 5px;
+ @media only screen and (min-width: 400px) {
+     .biscuitdesc {
+         color: Yellow;
+         text-align: left;
+    }
+     .ingredients {
+         color: Blue;
+         text-align: right;
+    }
+     .ingredients ul {
+         background: AliceBlue;
+         padding: 5px;
+    }
+     .ingredients ul li {
+         padding: 20px;
+         background: Aqua;
+    }
+     .directions li {
+         color: Blue;
+    }
 }
-.ingredients ul li {
-     padding: 20px;
-     background: Aqua;
+ @media only screen and (min-width: 800px){
+     .biscuitdesc {
+         color: Blue;
+         text-align: center;
+    }
+     .ingredients {
+         color: Red;
+         text-align: center;
+    }
+     .ingredients ul {
+         background: Aqua;
+         padding: 10px;
+    }
+     .ingredients ul li {
+         padding: 25px;
+         background: Red;
+    }
+     .directions li {
+         color: Blue;
+    }
 }
-.directions li {
-  color: Blue;
-  
-}
-
-}
-
-@media only screen and (min-width: 800px){
-  .biscuitdesc {
-    color: Blue;
-    text-align: center;
-  }
-  
-  .ingredients {
-    color: Red;
-    text-align: center;
-  }
-  .ingredients ul {
-     background: Aqua;
-     padding: 10px;
-}
-.ingredients ul li {
-     padding: 25px;
-     background: Red;
-}
-.directions li {
-  color: Blue;
-  
-}
-}
-
  .biscuitdesc {
      text-align: center;
 }
@@ -148,5 +140,5 @@ nav :hover {
      background: #F5F5DC;
 }
  #map {
-   height: 800px;
- }
+     height: 800px;
+}
