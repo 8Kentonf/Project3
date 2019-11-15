@@ -105,8 +105,36 @@ nav :hover {
      padding: 20px;
      background: Aqua;
 }
+.directions li {
+  color: Blue;
+  
 }
 
+}
+
+@media only screen and (min-width: 800px){
+  .biscuitdesc {
+    color: Blue;
+    text-align: center;
+  }
+  
+  .ingredients {
+    color: Red;
+    text-align: center;
+  }
+  .ingredients ul {
+     background: Aqua;
+     padding: 10px;
+}
+.ingredients ul li {
+     padding: 25px;
+     background: Red;
+}
+.directions li {
+  color: Blue;
+  
+}
+}
 
  .biscuitdesc {
      text-align: center;
