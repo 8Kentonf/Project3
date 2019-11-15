@@ -95,3 +95,6 @@ nav a :hover {
      padding: 10px;
      background: #F5F5DC;
 }
+ .map {
+   height: 800px;
+ }
