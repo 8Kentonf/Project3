@@ -97,6 +97,14 @@ nav :hover {
     color: Blue;
     text-align: right;
   }
+  .ingredients ul {
+     background: AliceBlue;
+     padding: 5px;
+}
+.ingredients ul li {
+     padding: 20px;
+     background: Aqua;
+}
 }
 
 
