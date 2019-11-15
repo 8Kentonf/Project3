@@ -10,6 +10,7 @@ styles: [
               elementType: 'geometry',
               stylers: [{color: '#FFFF00'}]
             },
- });
+            ]
+});
 }
   
