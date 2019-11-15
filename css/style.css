@@ -86,6 +86,14 @@ nav :hover {
      width: 300px;
      height: 300px;
 }
+
+@media screen and (max-width: 400px) {
+  .biscuitdesc {
+    color: Yellow;
+    text-align: left;
+  }
+
+
  .biscuitdesc {
      text-align: center;
 }
