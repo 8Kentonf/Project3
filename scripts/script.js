@@ -1,4 +1,9 @@
 function initMap() {
+
+var sears = {lat: 41.8789, lng: -87.6359};
+ 
+var marker = new google.maps.Marker({position: sears, map: map});
+
 var map;
 map = new google.maps.Map(document.getElementById('map'), {
 center: {lat: 41.8789, lng: -87.6359},
