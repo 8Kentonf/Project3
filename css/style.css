@@ -20,8 +20,6 @@ nav {
      padding: 0;
      background-color: DimGray;
      overflow: hidden;
-     left: 50%;
-     right: 50%;
 }
 nav a {
      float: left;
