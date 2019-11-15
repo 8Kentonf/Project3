@@ -10,6 +10,11 @@ styles: [
               elementType: 'geometry',
               stylers: [{color: '#FFFF00'}]
             },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#FFE4E1'}]
+            },
             ]
 });
 }
