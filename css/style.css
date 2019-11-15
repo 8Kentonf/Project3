@@ -30,7 +30,7 @@ nav a {
      left: 50%;
      right: 50%;
 }
-nav a :hover {
+nav :hover {
      background-color: Black;
 }
  .active {
