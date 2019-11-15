@@ -22,7 +22,7 @@ nav {
      overflow: hidden;
 }
 nav a {
-     float: left;
+     float: none;
      display: block;
      color: Gainsboro;
      padding: 10px 15px;
