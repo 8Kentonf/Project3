@@ -87,11 +87,17 @@ nav :hover {
      height: 300px;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .biscuitdesc {
     color: Yellow;
     text-align: left;
   }
+  
+  .ingredients {
+    color: Blue;
+    text-align: right;
+  }
+}
 
 
  .biscuitdesc {
