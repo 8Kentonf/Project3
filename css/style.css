@@ -28,6 +28,7 @@ body {
      color: Gainsboro;
      padding: 10px 15px;
      position: relative;
+     text-decoration: none;
 }
  nav :hover {
      background-color: Black;
