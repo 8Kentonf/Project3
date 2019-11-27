@@ -20,6 +20,7 @@ body {
      padding: 0;
      background-color: DimGray;
      overflow: hidden;
+     text-align: center;
 }
  nav a {
      float: left;
@@ -27,7 +28,6 @@ body {
      color: Gainsboro;
      padding: 10px 15px;
      position: relative;
-     left: 50%;
 }
  nav :hover {
      background-color: Black;
