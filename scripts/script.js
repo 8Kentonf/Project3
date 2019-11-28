@@ -53,13 +53,11 @@ displaySlides();
 function displaySlides() {
   var x;
   var slides = document.getElementsByClassName("showslide");
-  for (x = 0; i < slides.length; x++) {
+  for (x = 0; x < slides.length; x++) {
     slides[x].style.display = "none";
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showslides, 1000);
-  
-  slides[slideIndex - 1].style.display = "block";
+  setTimeout(displaySlides, 1000);
 }
