@@ -14,7 +14,7 @@ body {
  h3 {
      color: DimGray;
 }
- nav ul {
+ .nav {
      list-style-type: none;
      margin: 0;
      padding: 0;
@@ -22,10 +22,10 @@ body {
      overflow: hidden;
      text-align: center;
 }
- nav ul li {
+ .nav li {
   display: inline;
 }
- nav a {
+ .nav a {
      float: left;
      display: inline-block;
      color: Gainsboro;
@@ -33,7 +33,7 @@ body {
      position: relative;
      text-decoration: none;
 }
- nav :hover {
+ nav ul li :hover {
      background-color: Black;
 }
  .active {
