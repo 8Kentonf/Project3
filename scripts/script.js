@@ -49,6 +49,12 @@ function initMap() {
 }
 var slideIndex = 1;
 displaySlides(slideIndex)
+function nextSlide(n) {  
+  displaySlides(slideIndex += n);  
+}  
+function currentSlide(n) {  
+  displaySlides(slideIndex = n);  
+}  
 function displaySlides(n) {
   var x;
   var slides = document.getElementsByClassName("slide")
