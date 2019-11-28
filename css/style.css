@@ -14,7 +14,7 @@ body {
  h3 {
      color: DimGray;
 }
- nav {
+ nav ul {
      list-style-type: none;
      margin: 0;
      padding: 0;
@@ -22,7 +22,7 @@ body {
      overflow: hidden;
      text-align: center;
 }
- nav li {
+ nav ul li {
   display: inline;
 }
  nav a {
