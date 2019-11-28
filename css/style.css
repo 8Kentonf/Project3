@@ -147,15 +147,15 @@ body {
      height: 800px;
 }
 
-.slide {
+.showslide {
   display: none;
 }
 
-.slide img {
+.showslide img {
   width: 100%;
 }
 
-.slider {
+.slidercontainer {
   position: relative;
   margin: auto;
 }
@@ -164,4 +164,20 @@ body {
   -webkit-animation-duration: 1.5s;  
   animation-name: fade;  
   animation-duration: 1.5s;  
+}
+@-webkit-keyframes fade {  
+  from {  
+    opacity: .4  
+  }  
+    to {  
+    opacity: 1  
+    }  
+}  
+@keyframes fade {  
+  from {  
+    opacity: .4  
+  }  
+  to {  
+  opacity: 1  
+  }  
 }  

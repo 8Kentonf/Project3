@@ -57,11 +57,11 @@ function currentSlide(n) {
 }  
 function displaySlides(n) {
   var x;
-  var slides = document.getElementsByClassName("slide")
+  var slides = document.getElementsByClassName("showslide");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (x = 0; x < slides.length; x++) {
-    slides[x].style.display = "none"
+    slides[x].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex - 1].style.display = "block";
 }
