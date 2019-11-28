@@ -50,7 +50,7 @@ function initMap() {
 var slideIndex = 1;
 displaySlides(slideIndex);
 
-function plusSlides(n) {
+function nextSlide(n) {
   displayslides(slideIndex += n);
 }
 function currentSlide(n) {
