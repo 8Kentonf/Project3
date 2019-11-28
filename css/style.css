@@ -22,6 +22,9 @@ body {
      overflow: hidden;
      text-align: center;
 }
+ nav li {
+  display: inline;
+}
  nav a {
      float: left;
      display: inline-block;
