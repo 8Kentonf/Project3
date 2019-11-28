@@ -47,20 +47,19 @@ function initMap() {
 		]
 	});
 }
-var slideIndex = 1;
-displaySlides(slideIndex)
-function nextSlide(n) {  
-  displaySlides(slideIndex += n);  
-}  
-function currentSlide(n) {  
-  displaySlides(slideIndex = n);  
-}  
-function displaySlides(n) {
+var slideIndex = 0;
+displaySlides();
+
+function displaySlides() {
   var x;
   var slides = document.getElementsByClassName("showslide");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  for (x = 0; i < slides.length; x++) {
+    slides[x].style.display = "none";
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showslides, 1000);
   
   slides[slideIndex - 1].style.display = "block";
 }
