@@ -48,12 +48,14 @@ function initMap() {
 	});
 }
 var slideIndex = 1;
-displaySlides(n);
+displaySlides(slideIndex);
 
 function plusSlides(n) {
   displayslides(slideIndex += n);
 }
-
+function currentSlide(n) {
+  displayslides(slideIndex = n);
+}
 
 function displaySlides(n) {
   var x;
