@@ -51,10 +51,10 @@ var slideIndex = 1;
 displaySlides(slideIndex);
 
 function nextSlide(n) {
-  displayslides(slideIndex += n);
+  displaySlides(slideIndex += n);
 }
 function currentSlide(n) {
-  displayslides(slideIndex = n);
+  displaySlides(slideIndex = n);
 }
 
 function displaySlides(n) {
