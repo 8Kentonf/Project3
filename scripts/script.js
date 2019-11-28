@@ -47,17 +47,21 @@ function initMap() {
 		]
 	});
 }
-var slideIndex = 0;
-displaySlides();
+var slideIndex = 1;
+displaySlides(n);
 
-function displaySlides() {
+function plusSlides(n) {
+  displayslides(slideIndex += n);
+}
+
+
+function displaySlides(n) {
   var x;
   var slides = document.getElementsByClassName("showslide");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
   for (x = 0; x < slides.length; x++) {
     slides[x].style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(displaySlides, 1000);
+  slides[slideIndex - 1].style.display = "block";
 }
