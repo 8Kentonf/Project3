@@ -51,19 +51,24 @@ var slideIndex = 1;
 displaySlides(slideIndex);
 
 function nextSlide(n) {
-  displaySlides(slideIndex += n);
+	displaySlides(slideIndex += n);
 }
+
 function currentSlide(n) {
-  displaySlides(slideIndex = n);
+	displaySlides(slideIndex = n);
 }
 
 function displaySlides(n) {
-  var x;
-  var slides = document.getElementsByClassName("showslide");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (x = 0; x < slides.length; x++) {
-    slides[x].style.display = "none";
-  }
-  slides[slideIndex - 1].style.display = "block";
+	var x;
+	var slides = document.getElementsByClassName("showslide");
+	if (n > slides.length) {
+		slideIndex = 1
+	}
+	if (n < 1) {
+		slideIndex = slides.length
+	}
+	for (x = 0; x < slides.length; x++) {
+		slides[x].style.display = "none";
+	}
+	slides[slideIndex - 1].style.display = "block";
 }
