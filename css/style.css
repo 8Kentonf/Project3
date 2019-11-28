@@ -146,3 +146,16 @@ body {
  #map {
      height: 800px;
 }
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.slider {
+  position: relative;
+  margin: auto;
+}
