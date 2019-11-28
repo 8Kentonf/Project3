@@ -168,12 +168,14 @@ body {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   transition: 0.6s ease;
   user-select: none;
 }
 
-
+.right {
+  right: 0;
+}
 
 .fade {  
   -webkit-animation-name: fade;  
