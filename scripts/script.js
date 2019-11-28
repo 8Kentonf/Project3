@@ -47,3 +47,15 @@ function initMap() {
 		]
 	});
 }
+var slideIndex = 1;
+displaySlides(slideIndex)
+function displaySlides(n) {
+  var x;
+  var slides = document.getElementsByClassName("slide")
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (x = 0; x < slides.length; x++) {
+    slides[x].style.display = "none"
+  }
+  slides[slideIndex-1].style.display = "block";
+}
